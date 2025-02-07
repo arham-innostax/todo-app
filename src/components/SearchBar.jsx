@@ -7,7 +7,7 @@ const SearchBar = ({ searchQuery, setSearchQuery }) => {
       value={searchQuery || ""}
       onChange={(e) => setSearchQuery(e.target.value)}
       placeholder="Search tasks..."
-      className="p-2 rounded-4xl w-80 h-10 border border-transparent focus:border-white focus:border-teal-500"
+      className="p-2 rounded-4xl w-80 h-10 border border-gray-500 focus:border-white focus:border-teal-500"
     />
   );
 };
